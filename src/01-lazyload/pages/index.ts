@@ -1,3 +1,6 @@
-export { default as LazyPage1 } from './LazyPage1';
-export { default as LazyPage2 } from './LazyPage2';
-export { default as LazyPage3 } from './LazyPage3';
+
+import LazyPage1 from "../pages/LazyPage1";
+import LazyPage2 from "../pages/LazyPage2";
+import LazyPage3 from "../pages/LazyPage3";
+
+export { LazyPage1, LazyPage2, LazyPage3 };
